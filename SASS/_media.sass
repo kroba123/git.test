@@ -1,0 +1,133 @@
+@media screen and ( max-width: 1200px	)
+	.menu
+		&_link
+			font-size: 13px
+		&_item
+			padding-right: 20px
+	.subheader
+		&_call
+			font-size: 11px
+		&_phone
+			font-size: 18px
+	.promo
+		h1
+			font-size: 55px
+		&_subtitle
+			font-size: 35px
+		&_text
+			width: 100%
+	.advan
+		&_block
+			align-items: flex-start
+		&_descr
+			width: 303px
+	.mobile
+		&_item
+			width: 311px
+			margin-bottom: 9px
+	footer
+		.block_navigate a
+			font-size: 11px
+
+@media screen and ( max-width: 991px	)
+	.title
+		font-size: 33px
+	.menu
+		&_item
+			padding-right: 9px
+		&_link
+			font-size: 10px
+	.subheader
+		&_logo img
+			width: 100%
+		&_official
+			font-size: 11px
+		&_btn
+			width: 100%
+			font-size: 12px
+		&_call
+			text-align: left
+	.promo
+		h1
+			font-size: 41px
+			line-height: 41px
+		&_subtitle
+			font-size: 25px
+			line-height: 25px
+		&_text
+			font-size: 16px
+	.advan
+		&_block
+			flex-wrap: wrap
+			text-align: center
+		&_round
+			margin-right: 0
+			margin-bottom: 10px
+	.order
+		&_car img
+			width: 100%
+
+	footer
+		.block_navigate a
+			font-size: 10px
+@media screen and ( max-width: 767px	)
+	header
+		.menu
+			position: fixed
+			top: 0
+			left: -100%
+			z-index: 2
+			background-color: rgba(0, 0, 0,0.8)
+			height: 100vh
+			width: 100%
+			display: flex
+			flex-wrap: wrap
+			overflow: auto
+			transition: 0.5s all
+			text-align: center
+			&_active
+				left: 0
+			&_item
+				width: 100%
+				display: flex
+				justify-content: center
+			&_link
+				font-size: 20px
+				display: block
+				width: 100%
+				padding: 15px 0
+		.burger
+			display: block
+			&_active::before
+				transform: rotate(45deg)
+				top: 50%
+			&_active::after
+				transform: rotate(-45deg)
+				top: 50%
+			&_active span
+				display: none
+		.subheader
+			&_call
+				font-size: 9px
+			&_phone
+				font-size: 14px
+	.promo
+		h1
+			font-size: 36px
+		&_subtitle
+			font-size: 22px
+		&_text
+			font-size: 15px
+		&_btn
+			width: 225px
+			font-size: 16px
+	.title
+		font-size: 27px
+	.advan
+		&_round
+			margin-right: 13px
+	.mobile
+		&_text
+			font-size: 22px
+
+// @media screen and ( max-width: 576px	)
